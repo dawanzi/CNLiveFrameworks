@@ -1,6 +1,0 @@
-use_frameworks!
-target 'CNLiveBaseKitSDK_Tests' do
-  pod 'CNLiveBaseKitSDK', :path => '../'
-  
-  
-end
