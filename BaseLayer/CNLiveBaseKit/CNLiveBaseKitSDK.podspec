@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.frameworks   = "UIKit", "Foundation" #支持的框架
   s.dependency "MJExtension", "~> 3.0.15.1"
 
-  s.vendored_frameworks = 'CNLiveBaseKit.framework'
+  s.vendored_frameworks = 'Test/*'
 
 end
