@@ -15,7 +15,12 @@ Pod::Spec.new do |s|
     sp.dependency 'MJExtension','~> 3.0.15.1'
   end
 
+  s.subspec 'CNLiveStat' do |sp|
+    sp.vendored_frameworks = 'CNLiveSDKs/CNLiveStat.framework'
+  end
 
-
+  s.subspec 'CNLiveUserSystemSDK' do |sp|
+    sp.vendored_frameworks = 'CNLiveSDKs/CNLiveUserSystemSDK.framework'
+  end
 
 end
