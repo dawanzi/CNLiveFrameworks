@@ -10,10 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
 
-
-  s.vendored_frameworks = 'BaseLayer/CNLiveStat.framework'
-
-  # s.dependency "MJExtension", "~> 3.0.15.1"
-  # s.vendored_frameworks = 'CNLiveBaseKit.framework'
+  s.dependency "MJExtension", "~> 3.0.15.1"
+  s.vendored_frameworks = 'BaseLayer/CNLiveBaseKit.framework'
 
 end
