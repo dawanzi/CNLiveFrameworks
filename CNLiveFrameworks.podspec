@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CNLiveFrameworks"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "CNLive-iOS SDK集合库"# 项目简介
   s.homepage     = "https://github.com/oldSixMrZhang/CNLiveFrameworks"
   s.source       = { :git => "https://github.com/oldSixMrZhang/CNLiveFrameworks.git", :tag => "#{s.version}" }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks   = "UIKit", "Foundation" #支持的框架
 
   s.subspec 'CNLiveBaseKit' do |sp|
-    sp.vendored_frameworks = 'CNLiveKit.framework'
+    sp.vendored_frameworks = 'BaseLayer/CNLiveKit.framework'
     sp.dependency 'MJExtension','~> 3.0.15.1'
   end
 end
