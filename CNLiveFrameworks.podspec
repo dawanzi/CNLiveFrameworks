@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CNLiveFrameworks"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "CNLive-iOS SDK集合库"# 项目简介
   s.homepage     = "https://github.com/oldSixMrZhang/CNLiveFrameworks"
   s.source       = { :git => "https://github.com/oldSixMrZhang/CNLiveFrameworks.git", :tag => "#{s.version}" }
@@ -21,6 +21,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'CNLiveUserSystemSDK' do |sp|
     sp.vendored_frameworks = 'CNLiveSDKs/CNLiveUserSystemSDK.framework'
+  end
+
+  s.subspec 'CNLiveMapKit' do |sp|
+    sp.vendored_frameworks = 'MapLayer/CNLiveMapKit.framework'
   end
 
 end

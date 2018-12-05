@@ -1,0 +1,6 @@
+framework module CNLiveMapKit {
+  umbrella header "CNLiveMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
